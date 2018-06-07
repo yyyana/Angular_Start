@@ -1,0 +1,23 @@
+
+  <div  class="form_for_registration">
+    <h1>Добавить книгу</h1>
+    <div class="div_for_form_registration">
+      <label for="namel">Название:</label>
+      <input  type="text" id="namel" [(ngModel)]="book.name">
+    </div>
+    <div class="div_for_form_registration">
+      <label for="authorl">Автор:</label>
+      <input type="text" id="authorl" [(ngModel)]="book.author" >
+    </div>
+    <div class="div_for_form_registration">
+      <label for="url_imgl">url обложки:</label>
+      <input type="text" id="url_imgl" [(ngModel)]="book.url_img">
+    </div>
+    <div class="div_for_form_registration">
+      <label for="annotationl" class="label_textarea">Аннотация:</label>
+      <textarea id="annotationl" [(ngModel)]="book.annotation"></textarea>
+    </div>
+    <div class="div_for_form_registration">
+      <button (click)="addBook()">Добавить</button>
+    </div>
+  </div>

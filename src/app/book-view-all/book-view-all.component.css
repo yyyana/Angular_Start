@@ -1,0 +1,51 @@
+*{font-family: "Fira Code", sans-serif, "Arial";}
+
+.form_for_view_all{
+    width: 170px;
+    margin: 0 3px;
+    border-radius: 20px/30px;
+    padding: 10px;
+    box-shadow: 0 0 3px #969;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #d3ec54;
+}
+.form_for_view_all:hover{
+    box-shadow: 2px 2px 5px #7a6097 inset;
+}
+.form_for_view_all img{
+    height: 100px;
+}
+.form_for_view_all .author{
+    max-width: inherit;
+    color: #6d6c6c;
+    font-weight: bold;
+}
+.form_for_view_all .name{
+    max-width: inherit;
+    font-style: italic;
+}
+.form_for_view_all button{
+    width: 150px;
+    height: 30px;
+    margin: 3px auto;
+    border: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 20px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    background-color: #996699;
+    box-shadow: none;
+    color: #212121;
+    transition: all linear 0.2s;
+}
+.form_for_view_all button:hover{
+    background-color: #7a6097;
+    color: black;
+}
+.form_for_view_all button:focus{
+    outline: none;
+}

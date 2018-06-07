@@ -1,0 +1,83 @@
+*{font-family: "Fira Code", sans-serif, "Arial";}
+
+.form_for_registration{
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 20px/30px;
+    padding: 10px;
+    box-shadow: 0 0 3px #969;
+    transition: all linear 5s;
+    background-color: #d3ec54;
+}
+.form_for_registration:hover{
+    box-shadow: 2px 2px 5px #7a6097 inset;
+
+}
+input{
+    width: 250px;
+    height: 30px;
+    margin: 3px auto;
+    border: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    box-shadow: 2px 2px 5px #969 inset;
+    padding-left: 10px;
+    color: #807f7f;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.div_for_form_registration label{
+    min-width: 80px;
+    display: inline-block;
+    font-size: 15px;
+    text-align: right;
+    color: #b0aeae;
+}
+.label_textarea{vertical-align: top}
+.div_for_form_registration{
+    margin-bottom: 4px;
+}
+h1{text-align: center;
+    color: #6d6c6c;
+    font-size: 20px}
+input:hover, textarea:hover, input:focus, textarea:focus{
+    box-shadow: 2px 2px 5px #7a6097 inset;
+}
+input:focus, textarea:focus,button:focus{
+    outline: none;
+}
+button{
+    width: 250px;
+    height: 50px;
+    margin: 3px auto;
+    border: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 20px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    background-color: #996699;
+    box-shadow: none;
+    color: #212121;
+    transition: all linear 0.2s;
+}
+textarea{
+    width: 250px;
+    min-height: 150px;
+    margin: 3px auto;
+    font-size: 18px;
+    border: none;
+    box-shadow: 2px 2px 5px #969 inset;
+    transition: all linear 0.2s;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding:5px;
+    color: #807f7f;
+}
+button:hover{
+    background-color: #7a6097;
+    color: black;
+}
